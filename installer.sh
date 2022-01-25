@@ -10,7 +10,8 @@ sudo apt install -y \
                     vim \
                     ranger \
                     neofetch \
-                    tmux
+                    tmux \
+                    sensors
 
 # net 
 sudo apt install -y \
@@ -21,12 +22,21 @@ sudo apt install -y \
                     net-tools \
                     nmap
 
-# c dev
+# dev
 sudo apt install -y \
                     build-essential \
                     clang \
                     valgrind \
-                    libssl-dev
+                    gdb \
+                    libssl-dev \
+                    nasm
+
+# emulating
+sudo apt install -y \
+                    qemu \
+                    qemu-kvm \
+                    bochs \
+                    bochs-x
 
 # ffmpeg + libs
 sudo apt install -y \
